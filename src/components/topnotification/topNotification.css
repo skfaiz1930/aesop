@@ -1,0 +1,55 @@
+.top-notify:hover{
+    border-bottom: 1px solid white;
+    transition: .5s all;
+}
+.top-notify-drawer{
+    background-color: #F1F0E8;
+}
+
+/* #top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+  } */
+  .action-div{
+      position: absolute;
+      bottom: 80px;
+      right: 30px;
+      position: fixed;
+      z-index: 9999;
+  }
+  .action-btn{
+      width: 40px;
+      height: 40px;
+      color: white;
+      background-color: #333333;
+      border-radius: 50%;
+  }
+
+  .action-content-div{
+      width: 300px;
+      border-radius: 10px;
+      background-color: white;
+      z-index: 9999;
+      position: absolute;
+      height: 60vh;
+      bottom: 80px;
+      right: 10px;
+      position: fixed;
+  }
+
+  .top-action-content{
+      background-color: #FFFEF2;
+    }
+
+
+    .action-cards{
+        border-radius: 10px;
+    }
+
+  .action-cards:hover{
+cursor: pointer;
+box-shadow: 0px 0px 8px rgba(0,0,0,0.5) !important;
+  }

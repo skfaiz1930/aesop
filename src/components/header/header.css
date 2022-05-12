@@ -1,0 +1,52 @@
+.header{
+    width: 100%;
+    background-image:url('../../../public/assets/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+
+.btn-a{
+    color:white;
+    border: 1px solid white;
+    border-radius: 0;
+    transition: 0.5s all;
+}
+.btn-a:hover{
+    color: black;
+    background-color: white;
+}
+
+.btn-b{
+    color:black;
+    border: 1px solid #333333;
+    border-radius: 0;
+    transition: 0.5s all;
+}
+
+.btn-b:hover{
+    color: white;
+    background-color: #333333;
+}
+
+.header-desc-2{
+    background-color: #8E7055;
+    display: none;
+}
+
+
+@media screen and (max-width: 636px) {
+.header-desc-div{
+    display: none !important;
+}
+.header-desc-2{
+    display: block !important;
+}
+.btn-a{
+    width: 100% !important;
+}
+.btn-b{
+    width: 100% !important;
+}
+}

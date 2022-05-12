@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: sussie-intl;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: sussie-intl;
+}
+
+@font-face {
+  font-family: "sussie-intl";
+  src: local("sussie-intl"), url(./SuisseIntl-Regular.ttf) format("truetype");
+}

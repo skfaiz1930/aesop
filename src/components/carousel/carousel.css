@@ -1,0 +1,66 @@
+input[type="range"] {
+    -webkit-appearance: none;
+  }
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 2px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 3px;
+    width: 15%;
+    border-radius: 0%;
+    background: #333333;
+    margin-top: 0px;
+  }
+  
+  input[type="range"]:focus {
+    outline: none;
+  }
+  
+  input[type="range"]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+  }
+  .carousel-container-with-scrollbar {
+    padding-left: 100px;
+    padding-bottom: 20px;
+    overflow: visible !important;
+  }
+  .custom-slider {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* padding: 0 20px; */
+    left: 0;
+  }
+  .custom-slider__input {
+    width: 100%;
+  }
+  .slider-image-item {
+    padding: 20px 0 20px 20px;
+  }
+  
+
+  .car-div{
+      overflow: hidden;
+  }
+
+.react-multiple-carousel__arrow{
+    border-radius: 0 !important;
+    width: 7%;
+    height: 20%;
+    background-color: #333333;
+}
+.react-multiple-carousel__arrow--left{
+    left: -0px;
+}
+
+.react-multiple-carousel__arrow--right{
+    right: -0px;
+}

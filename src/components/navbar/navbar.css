@@ -1,0 +1,53 @@
+.link-p{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: medium;
+}
+
+.nav-div p{
+    margin-right: 10px;
+}
+
+.div-two{
+    display: none !important;
+    position: absolute;
+}
+.sec-flex{
+    display: none;
+}
+
+.div-one{
+    z-index: 10;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 9999;
+  }
+
+@media screen and (max-width: 1023px) {
+    .p-1{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 630px) {
+    .div-one{
+        display: none !important;
+    }
+    .div-two{
+        display: block !important;
+    }
+    .first-flex{
+        display: none !important;
+    }
+    .sec-flex{
+        display: block !important;
+    }
+    
+}

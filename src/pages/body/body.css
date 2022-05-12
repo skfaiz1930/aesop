@@ -1,0 +1,69 @@
+.page-img{
+    width: 100%;
+}
+.inp-email{
+    width: 100%;
+    background-color: #333333;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
+}
+.inp-email::placeholder{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+.inp-email:focus::placeholder{
+    display: none;
+    opacity: 0;
+}
+.inp-email{
+    font-size: 1.5rem;
+    color: white;
+}
+.inp-div{
+    position: relative;
+}
+.inp-email-arrow{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.check{
+    width: 40px;
+    height: 40px;
+    background-color: #333333 !important;
+    color: #333333;
+}
+.foot-nav-border{
+    border-bottom: 1px solid white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: white;
+}
+
+.liner{
+    border-bottom: 4px solid white;
+}
+
+@media screen and (max-width: 766px) {
+.fifty{
+    width: 50% !important;
+}
+.store-btn{
+    margin-bottom: 30px;
+}
+
+.footer-main p{
+    font-size: 0.8rem;
+}
+.footer-main a{
+    font-size: 0.8rem;
+}
+
+}
